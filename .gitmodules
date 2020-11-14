@@ -48,7 +48,7 @@
 	url = https://github.com/janestreet/ppx_here
 [submodule "ppx_expect"]
 	path = ppx_expect
-	url = https://github.com/janestreet/ppx_expect
+	url = https://github.com/mt-caret/ppx_expect
 [submodule "base"]
 	path = base
 	url = https://github.com/janestreet/base
@@ -60,13 +60,13 @@
 	url = https://github.com/janestreet/ppx_typerep_conv
 [submodule "ppx_string"]
 	path = ppx_string
-	url = https://github.com/janestreet/ppx_string
+	url = https://github.com/mt-caret/ppx_string
 [submodule "ppx_sexp_value"]
 	path = ppx_sexp_value
 	url = https://github.com/janestreet/ppx_sexp_value
 [submodule "ppx_sexp_message"]
 	path = ppx_sexp_message
-	url = https://github.com/janestreet/ppx_sexp_message
+	url = https://github.com/mt-caret/ppx_sexp_message
 [submodule "ppx_pipebang"]
 	path = ppx_pipebang
 	url = https://github.com/janestreet/ppx_pipebang
@@ -99,13 +99,13 @@
 	url = https://github.com/janestreet/ppx_cold
 [submodule "ppx_custom_printf"]
 	path = ppx_custom_printf
-	url = https://github.com/janestreet/ppx_custom_printf
+	url = https://github.com/mt-caret/ppx_custom_printf
 [submodule "ppx_disable_unused_warnings"]
 	path = ppx_disable_unused_warnings
 	url = https://github.com/janestreet/ppx_disable_unused_warnings
 [submodule "ppx_fields_conv"]
 	path = ppx_fields_conv
-	url = https://github.com/janestreet/ppx_fields_conv
+	url = https://github.com/mt-caret/ppx_fields_conv
 [submodule "ppx_fixed_literal"]
 	path = ppx_fixed_literal
 	url = https://github.com/janestreet/ppx_fixed_literal
@@ -123,7 +123,7 @@
 	url = https://github.com/janestreet/ppx_module_timer
 [submodule "ppx_optcomp"]
 	path = ppx_optcomp
-	url = https://github.com/janestreet/ppx_optcomp
+	url = https://github.com/mt-caret/ppx_optcomp
 [submodule "ppx_optional"]
 	path = ppx_optional
 	url = https://github.com/janestreet/ppx_optional
