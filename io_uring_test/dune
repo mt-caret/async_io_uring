@@ -1,0 +1,4 @@
+(executable
+  (name io_uring_test)
+  (libraries core async)
+  (preprocess (pps ppx_jane)))
