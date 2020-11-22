@@ -10,3 +10,17 @@ $ cd async_io_uring/io_uring_test
 $ dune build --profile release @@default
 $ ASYNC_CONFIG="((file_descr_watcher Io_uring))" ../_build/default/io_uring_test/echo_server_async.exe
 ```
+
+currently, the following libraries have been forked w/ changes:
+
+- core
+- ppx\_sexp\_conv
+- ppx\_expect
+- ppx\_string
+- ppx\_sexp\_message
+- ppx\_custom\_printf
+- ppx\_fields\_conv
+- ppx\_optcomp
+- async
+- async\_kernel
+- async\_unix
