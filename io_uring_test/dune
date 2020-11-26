@@ -9,3 +9,9 @@
   (modules echo_server_async)
   (libraries core async)
   (preprocess (pps ppx_jane)))
+
+(executables
+  (names async_tcp_server)
+  (modules async_tcp_server)
+  (libraries core async)
+  (preprocess (pps ppx_jane)))
