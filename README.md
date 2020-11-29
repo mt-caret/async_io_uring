@@ -1,7 +1,7 @@
 io\_uring backend for Async. Currently only used for watching file descriptors
 and very beta; expect lots of crashes.
 
-build instructions:
+build instructions (w/ OCaml 4.11.1, YMMV for other versions):
 
 ```
 $ git clone --recursive https://github.com/mt-caret/async_io_uring
@@ -72,3 +72,10 @@ Percentage of the requests served within a certain time (ms)
   99%     10
  100%     28 (longest request)
 ```
+
+todo:
+
+- [ ] figure out above benchmarks
+  - shot in the dark guess: allocation of a list in the critical path is the
+    culprit? possibly return a immediate option?
+- [ ] investigate ETIME in `io_uring_peek_cqe()`
